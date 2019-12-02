@@ -1,0 +1,53 @@
+.keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 2%;
+    margin-top: 15%;
+    font-size: 2.5em;
+    flex-wrap: wrap;
+   
+
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color:#000;
+    transition: all 0.3ms ease-in;
+    box-shadow: 0 0 10px white;
+    transition: all .07s;
+}
+
+body {
+    background-image:url(https://cdn.powerofpositivity.com/wp-content/uploads/2018/06/secret-to-beautiful-life-1600x900.webp) ;
+    background-color:transparent;
+    margin: 1.5em auto;
+}
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: #000;
+    box-shadow: 0 0 30px #ffc600;
+    background: lightgoldenrodyellow;
+}
+
+kbd {
+    display: block;
+    font-size: 40px;
+    color: rebeccapurple
+}
+
+span {
+    color: #000;
+}
+
+h1 {
+    font-size: 4.5em;
+    text-align: center;
+    color: lavenderblush;
+}
